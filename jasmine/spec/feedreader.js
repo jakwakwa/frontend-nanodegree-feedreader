@@ -35,7 +35,7 @@ $(function () {
             for (let i = 0; i < allFeeds.length; i++) {
                 const element = allFeeds[i];
                 expect(element.url).toBeDefined();
-                expect(element.url).not.toBe(0);
+                expect(element.url).not.toBe('');
             }
         })
 
@@ -43,6 +43,13 @@ $(function () {
          * in the allFeeds object and ensures it has a name defined
          * and that the name is not empty.
          */
+        it('has a name defined and not empty', function () {
+            for (let i = 0; i < allFeeds.length; i++) {
+                const element = allFeeds[i];
+                expect(element.name).toBeDefined();
+                expect(element.name).not.toBe('');
+            }
+        })
     });
 
 
