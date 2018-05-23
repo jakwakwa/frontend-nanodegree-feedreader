@@ -4,7 +4,7 @@ Testing the Feed Reader app using Javascript testing framework Jasmine. A part o
 
 ## Steps required to successfully run the application
 
-* download or clone this repo `https://github.com/jakwakwa/frontend-nanodegree-feedreader.git` on your local machine.
+* Download or clone this repo `https://github.com/jakwakwa/frontend-nanodegree-feedreader.git` on your local machine.
 
 * Open `index.html` in your web browser.
 
